@@ -10,9 +10,9 @@ Run in order — each notebook depends on files produced by the previous one.
 
 | Notebook | What it does |
 |---|---|
-| [`A_minimal_prep_and_split.ipynb`](A_minimal_prep_and_split.ipynb) | Drops identifiers/free-text columns, imputes missing `Age`/`Embarked`, encodes categoricals, and produces a stratified 80/20 train/test split. Saves `X_train.csv`, `X_test.csv`, `y_train.csv`, `y_test.csv`. |
-| [`B_from_scratch_models.ipynb`](B_from_scratch_models.ipynb) | NumPy-only logistic regression (none/L1/L2 penalties, functional gradient-descent implementation), a small Gini decision tree, bagging, and AdaBoost-style boosting with decision stumps. Saves `section_b_results.csv`. |
-| [`C_library_models.ipynb`](C_library_models.ipynb) | scikit-learn equivalents — `LogisticRegression` (none/L1/L2), `RandomForestClassifier`, and three boosting classifiers (`AdaBoost`, `GradientBoosting`, `HistGradientBoosting`) — plus a comparison table against Section B and a short analysis/write-up. |
+| [`A_minimal_prep_and_split.ipynb`](notebooks/A_minimal_prep_and_split.ipynb) | Drops identifiers/free-text columns, imputes missing `Age`/`Embarked`, encodes categoricals, and produces a stratified 80/20 train/test split. Saves `X_train.csv`, `X_test.csv`, `y_train.csv`, `y_test.csv`. |
+| [`B_from_scratch_models.ipynb`](notebooks/B_from_scratch_models.ipynb) | NumPy-only logistic regression (none/L1/L2 penalties, functional gradient-descent implementation), a small Gini decision tree, bagging, and AdaBoost-style boosting with decision stumps. Saves `section_b_results.csv`. |
+| [`C_library_models.ipynb`](notebooks/C_library_models.ipynb) | scikit-learn equivalents — `LogisticRegression` (none/L1/L2), `RandomForestClassifier`, and three boosting classifiers (`AdaBoost`, `GradientBoosting`, `HistGradientBoosting`) — plus a comparison table against Section B and a short analysis/write-up. |
 
 ## Setup
 
